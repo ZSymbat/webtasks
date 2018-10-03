@@ -1,0 +1,154 @@
+<html>
+<head>
+<style>
+section{
+   flex:1 ;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin-left: 30%;
+  margin-right: 30%;
+  min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header a{
+  text-decoration: none;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  color:black;
+  padding: 0px 34px;
+  font-size: 20px;
+
+}
+.active{
+  background-color: red;
+  border: 1px solid red;
+}
+.logo_part{
+  display: inline-flex;
+}
+.search{
+  display: inline-flex;
+  padding: 40px 60px;
+}
+.cards{
+  padding-left: 13px;
+  flex-basis: 1;
+
+}
+.card{
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 9px;
+}
+.title{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: skyblue;
+}
+.price{
+  text-align: center;
+  font-weight: bold;
+}
+footer{
+  border:1px solid black;
+  background:black;
+  color:white;
+  text-align: center;
+  display: inline-block;
+  padding:10px;
+   
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <nav>
+    <a href="#" class='active'>Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
+  </nav>
+  <div class="logo_part">
+     <img src="http://via.placeholder.com/200x100"/>
+     <div class="search">
+       <input type="text"/>
+       <button>Search</button>
+     </div>
+  </div>
+</header>
+
+<section class="main_section">
+  <div class="cards">
+    <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+       <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+    <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+     <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  @copy; 2017 Wheels.kz. All cars
+</footer>
+</div>
+</html>
